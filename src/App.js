@@ -11,7 +11,6 @@ function App() {
 
   let randomColor = Math.floor(Math.random() * 16777215).toString(16);
 
-
   const fetchData = async () => {
     try {
       const response = await fetch(API_URL, {
